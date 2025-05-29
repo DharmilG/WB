@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from 'react'
 import { Container, Box, Typography, Alert } from '@mui/material'
-import JoinForm from './components/JoinForm'
-import ChatRoom from './components/ChatRoom'
-import { ConnectionService } from './services/ConnectionService'
-import { StorageService } from './services/StorageService'
+import JoinForm from './JoinForm'
+import ChatRoom from './ChatRoom'
+import { ConnectionService } from './ConnectionService'
+import { StorageService } from './StorageService'
 
 interface User {
   name: string
