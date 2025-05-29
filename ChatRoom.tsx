@@ -22,7 +22,7 @@ import {
   Wifi,
   WifiOff
 } from '@mui/icons-material'
-import { ConnectionService } from '../services/ConnectionService'
+import { ConnectionService } from '../ConnectionService'
 
 interface User {
   name: string
